@@ -11,6 +11,7 @@ import fav from '../public/icon/fav.svg';
 import NavBar from './NavBar';
 
 import { motion, useAnimation } from "framer-motion";
+import Link from 'next/link';
 
 const Hero = () => {
 
@@ -186,11 +187,15 @@ const Hero = () => {
                                     duration: 0.4
                                 }}
                         >
-                            <Image
-                                src={arrow_down}
-                                alt='scroll down'
-                                className=''
-                            />
+                            <Link
+                                href="#clients"
+                            >
+                                <Image
+                                    src={arrow_down}
+                                    alt='scroll down'
+                                    className=''
+                                />
+                            </Link>
                         </motion.div>
                     </motion.div>
                 </div>

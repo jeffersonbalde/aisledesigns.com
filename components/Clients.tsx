@@ -5,9 +5,10 @@ import ed_folio from '../public/logo/ed_folio.svg';
 import hooves from '../public/logo/hooves.svg';
 import Image from 'next/image';
 
+
 const Clients = () => {
   return (
-    <div className='flex flex-col m-auto max-w-[1216px] gap-24 mt-20 mb-32 overflow-x-hidden'>
+    <div className='flex flex-col m-auto max-w-[1216px] gap-24 mt-3 mb-32' id='clients'>
         <h3 className='text-neutral-2 font-light text-[40px]'>Some of 
             <span className='text-neutral-1 font-semibold'> the clients I have 
             <span className='block'> designed for</span>
