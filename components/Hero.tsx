@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import React from 'react'
+import React, { useRef } from 'react'
 import figma from '../public/icon/figma.svg';
 import adobe_xd from '../public/icon/adobe_xd.svg';
 import photoshop from '../public/icon/photoshop.svg';
@@ -14,6 +14,24 @@ import { motion, useAnimation } from "framer-motion";
 import Link from 'next/link';
 
 const Hero = () => {
+
+    const ref = useRef<string | any>("");
+
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        e.preventDefault();
+        const href = e.currentTarget.href;
+        const targetId = href.replace(/.*\#/, "");
+        const elem = document.getElementById(targetId);
+        elem?.scrollIntoView({
+            behavior: "smooth",
+        })
+
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach((link) => {
+            link.classList.remove('active');
+        })
+        e.currentTarget.classList.add("active");
+    }
 
   return (
     <div className='h-screen w-screen overflow-x-hidden overflow-y-auto'> 
@@ -189,11 +207,12 @@ const Hero = () => {
                         >
                             <Link
                                 href="#clients"
+                                onClick={handleScroll}
                             >
                                 <Image
                                     src={arrow_down}
                                     alt='scroll down'
-                                    className=''
+                                    className='nav-link'
                                 />
                             </Link>
                         </motion.div>

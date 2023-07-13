@@ -10,3 +10,7 @@ body {
   color: rgb(var(--neutral1));
   background: rgb(var(--backgroundColor));
 }
+
+.active {
+  color: #3246FF;
+}
