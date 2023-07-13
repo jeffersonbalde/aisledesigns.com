@@ -34,9 +34,7 @@ const Hero = () => {
     }
 
   return (
-    <div className='h-screen w-screen overflow-x-hidden overflow-y-auto'> 
-        <NavBar />
-        <div className='flex flex-col items-center justify-center m-auto text-center mt-36 gap-7'>
+        <div className='flex flex-col items-center justify-center m-auto text-center gap-7 mt-32'>
             <motion.div
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -220,7 +218,6 @@ const Hero = () => {
                 </div>
             </motion.div>
         </div>
-    </div>
   )
 }
 

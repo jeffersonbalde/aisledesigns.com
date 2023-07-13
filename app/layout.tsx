@@ -1,3 +1,4 @@
+import NavBar from '@/components/NavBar';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Work_Sans } from 'next/font/google';
@@ -21,7 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={work_sans.className}>{children}</body>
+      <body className={work_sans.className}>
+        <NavBar />
+        {children}
+        </body>
     </html>
   )
 }

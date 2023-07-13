@@ -1,10 +1,12 @@
+'use client'
+
 import Link from 'next/link'
 import React from 'react'
 import { motion } from "framer-motion"
 
 const NavBar = () => {
   return (
-    <div className="max-w-[1320px] flex flex-row items-center justify-around m-auto my-7">
+    <div className="max-w-[1320px] flex flex-row items-center justify-around m-auto sticky top-0 py-4 w-full z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-900">
         <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
