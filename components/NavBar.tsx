@@ -3,6 +3,8 @@
 import Link from 'next/link'
 import React from 'react'
 import { motion } from "framer-motion"
+import Image from 'next/image'
+import logo from '../public/icon/logo.svg';
 
 const NavBar = () => {
   return (
@@ -12,7 +14,10 @@ const NavBar = () => {
             animate={{opacity: 1}}
             transition={{duration: 0.5}}
         >
-            <h1 className='text-primary font-semibold text-2xl '>YSL Design</h1>
+            <Image 
+                src={logo}
+                alt='AisleDesigns'
+            />
         </motion.div>
         
         <nav className='flex flex-row list-none uppercase gap-x-9 text-sm items-center font-semibold'>

@@ -34,7 +34,7 @@ const Hero = () => {
     }
 
   return (
-        <div className='flex flex-col items-center justify-center m-auto text-center gap-7 mt-32'>
+        <div className='flex flex-col items-center justify-center m-auto text-center gap-7 mt-36'>
             <motion.div
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -46,9 +46,8 @@ const Hero = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{duration: 0.6, delay: 0.6}}
                 >
-                    <p className='text-neutral-2 text-[56px] font-light mt-6'>I&apos;m a designer 
-                        <span className='font-normal' > specializing</span> in  
-                        <span className='text-neutral-1 font-semibold'> UI/UX </span> and 
+                    <p className='text-neutral-2 text-[40px] font-regular mt-6'>Freelance Designer Specializing in
+                        <span className="text-neutral-1 font-semibold"> UI/UX </span> and 
                         <span className='block text-neutral-1 font-semibold'>Graphic Design</span>
                     </p>
                 </motion.div>
@@ -58,7 +57,7 @@ const Hero = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{duration: 0.7, delay: 0.7}}
             >
-                <div className='flex flex-col mt-10 gap-24 items-center'>
+                <div className='flex flex-col mt-20 gap-24 items-center'>
                     <div className='flex flex-row gap-7 items-center'>
                         <motion.div
                             whileHover={{

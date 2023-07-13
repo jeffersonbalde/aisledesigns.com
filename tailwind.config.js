@@ -18,6 +18,7 @@ module.exports = {
        'neutral-1': 'rgba(227, 228, 230, 1)',
        'neutral-2': 'rgba(227, 228, 230, 0.55)',
        'buttonColor': 'rgba(255, 255, 255, 1)',
+       'white': 'rgba(rgba(255, 255, 255, 1))'
       },
       fontFamily: {
         sans: ['var(--font-work_sans)']

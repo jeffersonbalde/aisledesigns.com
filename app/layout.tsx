@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={work_sans.className}>
         <NavBar />
         {children}
-        </body>
+      </body>
     </html>
   )
 }

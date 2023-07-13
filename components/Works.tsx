@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import woop from '../public/assets/woop.svg';
 import Image from 'next/image';
@@ -5,6 +7,7 @@ import Link from 'next/link';
 import woop_page_1 from '../public/assets/woop_page-1.svg';
 import woop_page_2 from '../public/assets/woop_page-2.svg';
 import woop_page_3 from '../public/assets/woop_page-3.svg';
+import { motion } from 'framer-motion';
 
 const Works = () => {
   return (
@@ -16,7 +19,9 @@ const Works = () => {
         </h3>
 
         <div className='mt-20 flex flex-row gap-x-8 '>
-            <div className='relative overflow-hidden w-[2500px]'>
+            <motion.div 
+                className='relative overflow-hidden w-[2500px] rounded-r-2xl' 
+                whileHover={{rotate: -5}} transition={{duration: 0.5}}>
                 <Image
                     src={woop}
                     alt="Woop"
@@ -37,7 +42,7 @@ const Works = () => {
                     alt='Woop Webpage'
                     className='absolute bottom-96 left-40'
                 />
-            </div>
+            </motion.div>
             <div className='flex flex-col justify-end items-start'>
                 <div className='flex flex-col justify-center'>
                     <p className='uppercase text-neutral-1 text-semibold text-base'>WOOPSCHOLARSHIP</p>
