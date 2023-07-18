@@ -34,7 +34,7 @@ const Hero = () => {
     }
 
   return (
-        <div className='flex flex-col items-center justify-center m-auto text-center gap-7 mt-36'>
+        <div className='flex flex-col items-center justify-center m-auto text-center gap-7 mt-36' id='home'>
             <motion.div
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}

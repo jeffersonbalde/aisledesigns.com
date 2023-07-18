@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 
 const Works = () => {
   return (
-    <div className='mt-20 flex flex-col max-w-[1220px] m-auto mb-[200px]'>
+    <div className='mt-20 flex flex-col max-w-[1220px] m-auto mb-[200px]' id="works">
         <h3 className='text-neutral-2 font-light text-[40px] mt-20'>
             Selected
             <span className='text-neutral-1 font-semibold'> Works
