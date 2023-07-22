@@ -21,7 +21,6 @@ module.exports = {
        'primary': 'rgba(50, 70, 255, 100%)',
        'neutral-1': 'rgba(227, 228, 230, 1)',
        'neutral-2': 'rgba(227, 228, 230, 0.55)',
-       'navbarBtn': 'rgba(255, 255, 255, 1)',
        'white': 'rgba(rgba(255, 255, 255, 1))'
       },
     },

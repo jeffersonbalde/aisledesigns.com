@@ -4,9 +4,8 @@
     border-radius: 50%;
     background-color: rgba(50, 70, 255, 100%);
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    align-self: right;
+    z-index: 2;
 
     .burger{
         width: 100%;
@@ -14,7 +13,7 @@
             content: "";
             display: block;
             height: 1px;
-            width: 40%;
+            width: 50%;
             margin: auto;
             background-color: white;
             position: relative;
