@@ -1,4 +1,4 @@
-import NavBar from '@/components/NavBar';
+import NavBar from '@/components/Hero';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Work_Sans } from 'next/font/google';
