@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { Work_Sans } from 'next/font/google';
 
 const work_sans = Work_Sans({
-  weight: ['100', '200', '300', '400', '600', '700', '800', '900'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   variable: '--font-work_sans',
@@ -23,7 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={work_sans.className}>
-        <NavBar />
         {children}
       </body>
     </html>

@@ -7,21 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      screens:{
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
       },
       colors: {
-       'primary': '#3246FF',
-       'backgroundColor': 'linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%)',
+       'primary': 'rgba(50, 70, 255, 100%)',
        'neutral-1': 'rgba(227, 228, 230, 1)',
        'neutral-2': 'rgba(227, 228, 230, 0.55)',
-       'buttonColor': 'rgba(255, 255, 255, 1)',
+       'navbarBtn': 'rgba(255, 255, 255, 1)',
        'white': 'rgba(rgba(255, 255, 255, 1))'
-      },
-      fontFamily: {
-        sans: ['var(--font-work_sans)']
       },
     },
   },
