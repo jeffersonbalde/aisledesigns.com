@@ -30,43 +30,168 @@ const NavBar = () => {
     }
 
     return (
-        <div className='h-screen'>
-            {/* HERO SECTION */}
-            <main>
-                <div className="flex flex-col items-center justify-center m-auto text-center mt-32 px-4 gap-y-20 mdl:mt-40">
+        <main>
+            <div className="flex flex-col items-center justify-center m-auto text-center mt-32 sml:px-3 gap-y-16 mdl:mt-40">
 
-                    {/* NAME */}
-                    <motion.div
-                        initial={{ y: -10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        transition={{duration: 0.5, delay: 0.5}}
-                    >
-                        <h1 className='text-neutral-2 font-light text-[40px] sml:text-5xl xl:text-[50px]'>I&apos;m <span className='uppercase text-primary font-bold'>Ysl Ron</span></h1>
-                        <motion.h2 
-                            className='text-neutral-2 font-regular text-[33px] leading-[2.7rem] mt-6 sml:text-[38px] md:px-5 mdl:px-7 lg:px-20 xl:text-[42px]'
-                            initial={{ y: -10, opacity: 0 }}
-                            animate={{ y: 0, opacity: 1 }}
-                            transition={{duration: 0.6, delay: 0.6}}
-                        >Freelance Designer Specializing in
-                            <span className="text-neutral-1 font-semibold"> UI/UX </span> and 
-                            <span className='text-neutral-1 font-semibold lgl:block'> Graphic Design</span>
-                        </motion.h2>
-                    </motion.div>
-
-                    {/* ICONS */}
-                    <motion.div
+                {/* NAME */}
+                <motion.div
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{duration: 0.7, delay: 0.7}}
+                    transition={{duration: 0.5, delay: 0.5}}
                 >
-                    <div className='flex flex-col items-center'>
-                        <div className='flex flex-row gap-7 items-center'>
-                            <motion.div
+                    <h1 className='text-neutral-2 font-light text-3xl sml:text-4xl mdl:text-5xl'>I&apos;m <span className='uppercase text-primary font-bold'>Ysl Ron</span></h1>
+                    <motion.h2 
+                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-[20px] smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-[40px]'
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{duration: 0.6, delay: 0.6}}
+                    >Freelance Designer Specializing in
+                        <span className="block md:inline text-neutral-1 font-semibold"> UI/UX and 
+                        <span className='text-neutral-1 font-semibold lgl:block'> Graphic Design</span></span>
+                    </motion.h2>
+                </motion.div>
+
+                {/* ICONS */}
+                <motion.div
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{duration: 0.7, delay: 0.7}}
+            >
+                <div className='flex flex-col items-center'>
+                    <div className='flex flex-row gap-5 items-center'>
+                        <motion.div
+                            whileHover={{
+                                rotate: 30,
+                                scale: 1.4,
+                                originX: 0,
+                                originY: 0,
+                                transition: {
+                                    type: 'spring',
+                                    stiffness: 300,
+                                    damping: 10,
+                                },
+                                
+                            }}
+                            whileTap={{ scale: 0.9 }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: 300,
+                                damping: 10,
+                            }}
+                        >
+                            <div className='relative'>
+                                <Image
+                                    src={figma}
+                                    alt='Figma'
+                                    className='w-[45px] sml:w-14 xl:w-16'
+                                />
+                                <Image
+                                    src={fav}
+                                    alt='fav'
+                                    className='absolute left-[30px] bottom-[30px] w-7 sml:left-[35px] sml:bottom-[37px] xl:w-10 xl:bottom-[47px]'
+                                />
+                            </div>
+                        </motion.div>
+
+                        {/* Adobe XD */}
+                        <motion.div
+                            whileHover={{
+                                rotate: 30,
+                                scale: 1.3,
+                                originX: 0,
+                                originY: 1,
+                                transition: {
+                                    type: 'spring',
+                                    stiffness: 300,
+                                    damping: 15,
+                                },
+                                
+                            }}
+                            whileTap={{ scale: 0.9 }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: 300,
+                                damping: 10,
+                                duration: 0.1
+                            }}
+                            
+                        >
+                            <Image
+                                src={adobe_xd}
+                                alt='Adobe XD'
+                                className='w-[45px] sml:w-14 xl:w-16'
+                            />
+                        </motion.div>
+
+                        {/* Photoshop */}
+                        <motion.div
+                            whileHover={{
+                                rotate: 30,
+                                scale: 1.3,
+                                originX: 0,
+                                originY: 1,
+                                transition: {
+                                    type: 'spring',
+                                    stiffness: 300,
+                                    damping: 15,
+                                },
+                                
+                            }}
+                            whileTap={{ scale: 0.9 }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: 300,
+                                damping: 10,
+                                duration: 0.1
+                            }}
+                        >    
+                            <Image
+                                src={photoshop}
+                                alt='Photoshop'
+                                className='w-[45px] sml:w-14 xl:w-16'
+                            />
+                        </motion.div>
+                        <motion.div
+                            whileHover={{
+                                rotate: -30,
+                                scale: 1.3,
+                                originX: '100%',
+                                originY: '100%',
+                                transition: {
+                                    type: 'spring',
+                                    stiffness: 200,
+                                    damping: 15,
+                                },
+                                
+                            }}
+                            whileTap={{ scale: 0.9 }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: 200,
+                                damping: 10,
+                                duration: 0.1
+                            }}
+                        >
+                            <Image
+                                src={adobe_illustrator}
+                                alt='Adobe Illustrator'
+                                className='w-[45px] sml:w-14 xl:w-16'
+                            />
+                        </motion.div>
+                    </div>
+                </div>
+                </motion.div>
+                
+                {/* SCROLL DOWN */}
+                <motion.div
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{duration: 0.8, delay: 0.8}}
+                    >
+                    <motion.div
                                 whileHover={{
-                                    rotate: 30,
-                                    scale: 1.4,
-                                    originX: 0,
-                                    originY: 0,
+                                    y: 10,
+                                    scale: 1.3,
                                     transition: {
                                         type: 'spring',
                                         stiffness: 300,
@@ -74,155 +199,27 @@ const NavBar = () => {
                                     },
                                     
                                 }}
-                                whileTap={{ scale: 0.9 }}
-                                transition={{
-                                    type: 'spring',
-                                    stiffness: 300,
-                                    damping: 10,
-                                }}
-                            >
-                                <div className='relative'>
-                                    <Image
-                                        src={figma}
-                                        alt='Figma'
-                                        className='w-[52px] sml:w-14 xl:w-16'
-                                    />
-                                    <Image
-                                        src={fav}
-                                        alt='fav'
-                                        className='absolute left-[30px] bottom-[30px] w-9 sml:left-[35px] sml:bottom-[37px] xl:w-10 xl:bottom-[47px]'
-                                    />
-                                </div>
-                            </motion.div>
-
-                            {/* Adobe XD */}
-                            <motion.div
-                                whileHover={{
-                                    rotate: 30,
-                                    scale: 1.3,
-                                    originX: 0,
-                                    originY: 1,
-                                    transition: {
-                                        type: 'spring',
-                                        stiffness: 300,
-                                        damping: 15,
-                                    },
-                                    
-                                }}
-                                whileTap={{ scale: 0.9 }}
-                                transition={{
-                                    type: 'spring',
-                                    stiffness: 300,
-                                    damping: 10,
-                                    duration: 0.1
-                                }}
-                                
-                            >
-                                <Image
-                                    src={adobe_xd}
-                                    alt='Adobe XD'
-                                    className='w-[52px] sml:w-14 xl:w-16'
-                                />
-                            </motion.div>
-
-                            {/* Photoshop */}
-                            <motion.div
-                                whileHover={{
-                                    rotate: 30,
-                                    scale: 1.3,
-                                    originX: 0,
-                                    originY: 1,
-                                    transition: {
-                                        type: 'spring',
-                                        stiffness: 300,
-                                        damping: 15,
-                                    },
-                                    
-                                }}
-                                whileTap={{ scale: 0.9 }}
-                                transition={{
-                                    type: 'spring',
-                                    stiffness: 300,
-                                    damping: 10,
-                                    duration: 0.1
-                                }}
-                            >    
-                                <Image
-                                    src={photoshop}
-                                    alt='Photoshop'
-                                    className='w-[52px] sml:w-14 xl:w-16'
-                                />
-                            </motion.div>
-                            <motion.div
-                                whileHover={{
-                                    rotate: -30,
-                                    scale: 1.3,
-                                    originX: '100%',
-                                    originY: '100%',
-                                    transition: {
-                                        type: 'spring',
-                                        stiffness: 200,
-                                        damping: 15,
-                                    },
-                                    
-                                }}
-                                whileTap={{ scale: 0.9 }}
                                 transition={{
                                     type: 'spring',
                                     stiffness: 200,
                                     damping: 10,
-                                    duration: 0.1
+                                    duration: 0.4
                                 }}
+                        >
+                            <Link
+                                href="#clients"
+                                onClick={handleScroll}
                             >
                                 <Image
-                                    src={adobe_illustrator}
-                                    alt='Adobe Illustrator'
-                                    className='w-[52px] sml:w-14 xl:w-16'
+                                    src={arrow_down}
+                                    alt='scroll down'
+                                    className='nav-link w-7 mt-[130px]'
                                 />
-                            </motion.div>
-                        </div>
-                    </div>
-                    </motion.div>
-                    
-                    {/* SCROLL DOWN */}
-                    <motion.div
-                            initial={{ y: -10, opacity: 0 }}
-                            animate={{ y: 0, opacity: 1 }}
-                            transition={{duration: 0.8, delay: 0.8}}
-                        >
-                        <motion.div
-                                    whileHover={{
-                                        y: 10,
-                                        scale: 1.3,
-                                        transition: {
-                                            type: 'spring',
-                                            stiffness: 300,
-                                            damping: 10,
-                                        },
-                                        
-                                    }}
-                                    transition={{
-                                        type: 'spring',
-                                        stiffness: 200,
-                                        damping: 10,
-                                        duration: 0.4
-                                    }}
-                            >
-                                <Link
-                                    href="#clients"
-                                    onClick={handleScroll}
-                                >
-                                    <Image
-                                        src={arrow_down}
-                                        alt='scroll down'
-                                        className='nav-link w-8 mt-10'
-                                    />
-                                </Link>
-                            </motion.div>
-                    </motion.div>
-                </div>
-            </main>
-        </div>
+                            </Link>
+                        </motion.div>
+                </motion.div>
+            </div>
+        </main>
     )
 
 }

@@ -43,3 +43,82 @@
         
     }
 }
+
+
+.menu{
+    height: 100vh;
+    width: 270px;
+    background-color: rgba(50, 70, 255, 100%);
+    position: fixed;    
+    right: 0;
+    top: 0;
+    color: white;
+
+    .body{
+        box-sizing: border-box;
+        height: 100%;
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+            // gap: 12px;
+            // margin-top: 30px;
+
+            .header{
+                color: rgb(153, 153, 153);
+                border-bottom: 1px solid rgb(153, 153, 153);
+                text-transform: uppercase;
+                font-size: 11px;
+                margin-bottom: 40px;
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: 300;
+                margin-top: .5em;
+            }
+            
+        }
+    }
+}
+
+.link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    .indicator{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        left: -30px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;                
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    // flex-wrap: wrap;
+    gap: 1em;
+}
+
+.svgCurve{
+    position: absolute;
+    top: 0;
+    left: -99px;
+    width: 100px;
+    height: 100%;
+    fill: rgba(50, 70, 255, 100%);
+    stroke: none;
+}
