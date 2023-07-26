@@ -25,10 +25,11 @@ html {
   position: relative;
   height: 100px;
   margin-top: 2em;
+  background-color: black;
 }
 
 .slider .slide-track {
-  animation: scroll 40s linear infinite;
+  animation: scroll 80s linear infinite;
   display: flex;
   width: calc(250px * 14);
   gap: 2em;
@@ -52,7 +53,7 @@ html {
 .slider:after {
   position: absolute;
   top: 0;
-  width: 200px;
+  width: 210px;
   height: 100%;
   content: "";
   z-index: 2;

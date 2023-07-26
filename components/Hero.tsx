@@ -31,7 +31,7 @@ const NavBar = () => {
 
     return (
         <main>
-            <div className="flex flex-col items-center justify-center m-auto text-center mt-32 sml:px-3 gap-y-16 mdl:mt-40">
+            <div className="flex flex-col items-center justify-center m-auto text-center mt-20 sml:px-3 gap-y-16 mdl:mt-40">
 
                 {/* NAME */}
                 <motion.div
@@ -41,7 +41,7 @@ const NavBar = () => {
                 >
                     <h1 className='text-neutral-2 font-light text-3xl sml:text-4xl mdl:text-5xl'>I&apos;m <span className='uppercase text-primary font-bold'>Ysl Ron</span></h1>
                     <motion.h2 
-                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-[20px] smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-[40px]'
+                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-[21px] smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-[40px]'
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{duration: 0.6, delay: 0.6}}
@@ -213,7 +213,7 @@ const NavBar = () => {
                                 <Image
                                     src={arrow_down}
                                     alt='scroll down'
-                                    className='nav-link w-7 mt-[130px]'
+                                    className='nav-link w-7 '
                                 />
                             </Link>
                         </motion.div>

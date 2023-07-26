@@ -46,8 +46,8 @@ import { motion } from 'framer-motion';
 
 const Clients = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center mt-16 py-4" id='clients'>
-      <h1 className='text-neutral-2 font-light text-[26px]'>
+    <div className="flex flex-col justify-center items-center text-center mt-12 py-4" id='clients'>
+      <h1 className='text-neutral-2 font-light text-[21px]'>
         Some of
         <span className='text-neutral-1 font-semibold'> the clients I have <span className='block'>designed for</span></span>
       </h1>
@@ -58,7 +58,7 @@ const Clients = () => {
             alt='woop'
             className='w-36 slide'
           />
-          <Image 
+          <Image
             src={skooltekcolor}
             alt='SkoolTek'
             className='w-36 slide'
