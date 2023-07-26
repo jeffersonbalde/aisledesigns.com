@@ -39,61 +39,101 @@ import { motion } from 'framer-motion';
 
 // import React from 'react';
 // import Image from 'next/image';
-// import woopcolor from '../public/logo/woopcolor.svg';
+// import woopcolor from '../public/logo/woopcolor.svg'; 
 // import skooltekcolor from '../public/logo/skooltekcolor.svg';
 // import ed_foliocolor from '../public/logo/ed_foliocolor.svg';
 // import hoovescolor from '../public/logo/hoovescolor.svg';
 
 const Clients = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center mt-16" id='clients'>
+    <div className="flex flex-col justify-center items-center text-center mt-16 py-4" id='clients'>
       <h1 className='text-neutral-2 font-light text-[26px]'>
         Some of
         <span className='text-neutral-1 font-semibold'> the clients I have <span className='block'>designed for</span></span>
       </h1>
-      <div className='logos w-96 overflow-hidden logos-slide '>
-        {/* Single container for all logos */}
-        <Image 
-          src={woopcolor}
-          alt='woop'
-          className='w-36 inline'
-        />
-        <Image 
-          src={skooltekcolor}
-          alt='SkoolTek'
-          className='w-36 inline'
-        />
-        <Image 
-          src={ed_foliocolor}
-          alt='Ed Folio'
-          className='w-36 inline'
-        />
-        <Image 
-          src={hoovescolor}
-          alt='HOOVES'
-          className='w-36 inline'
-        />
-        {/* Repeat the images to create an infinite effect */}
-        <Image 
-          src={woopcolor}
-          alt='woop'
-          className='w-36 inline'
-        />
-        <Image 
-          src={skooltekcolor}
-          alt='SkoolTek'
-          className='w-36 inline'
-        />
-        <Image 
-          src={ed_foliocolor}
-          alt='Ed Folio'
-          className='w-36 inline'
-        />
-        <Image 
-          src={hoovescolor}
-          alt='HOOVES'
-          className='w-36 inline'
-        />
+      <div className='w-96 slider'>
+        <div className='slide-track'>
+          <Image 
+            src={woopcolor}
+            alt='woop'
+            className='w-36 slide'
+          />
+          <Image 
+            src={skooltekcolor}
+            alt='SkoolTek'
+            className='w-36 slide'
+          />
+          <Image 
+            src={ed_foliocolor}
+            alt='Ed Folio'
+            className='w-36 slide'
+          />
+          <Image 
+            src={hoovescolor}
+            alt='HOOVES'
+            className='w-36 slide'
+          />
+          <Image 
+            src={woopcolor}
+            alt='woop'
+            className='w-36 slide'
+          />
+          <Image 
+            src={skooltekcolor}
+            alt='SkoolTek'
+            className='w-36 slide'
+          />
+          <Image 
+            src={ed_foliocolor}
+            alt='Ed Folio'
+            className='w-36 slide'
+          />
+          <Image 
+            src={hoovescolor}
+            alt='HOOVES'
+            className='w-36 slide'
+          />
+                    <Image 
+            src={woopcolor}
+            alt='woop'
+            className='w-36 slide'
+          />
+          <Image 
+            src={skooltekcolor}
+            alt='SkoolTek'
+            className='w-36 slide'
+          />
+          <Image 
+            src={ed_foliocolor}
+            alt='Ed Folio'
+            className='w-36 slide'
+          />
+          <Image 
+            src={hoovescolor}
+            alt='HOOVES'
+            className='w-36 slide'
+          />
+          <Image 
+            src={woopcolor}
+            alt='woop'
+            className='w-36 slide'
+          />
+          <Image 
+            src={skooltekcolor}
+            alt='SkoolTek'
+            className='w-36 slide'
+          />
+          <Image 
+            src={ed_foliocolor}
+            alt='Ed Folio'
+            className='w-36 slide'
+          />
+          <Image 
+            src={hoovescolor}
+            alt='HOOVES'
+            className='w-36 slide'
+          />  
+        </div>
       </div>
     </div>
   )

@@ -11,23 +11,49 @@ html {
   overflow-x: hidden;
 }
 
-@keyframes slide {
-  from {
+@keyframes scroll {
+  0% {
     transform: translateX(0);
   }
-
-  to {
-    transform: translateX(-100%);
+  100% {
+    transform: translateX(calc(-250px * 7));
   }
 }
 
-.logos {
+.slider {
   overflow: hidden;
-  padding: 60px 0;
-  white-space: nowrap;
+  position: relative;
+  height: 100px;
+  margin-top: 2em;
 }
 
-.logos-slide {
-  /* display: inline-block; */
-  animation: 5s slide infinite linear;
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+  gap: 2em;
+}
+
+.slider .slide {
+  margin-left: 1em;
+}
+
+.slider:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+}
+
+.slider:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+}
+
+.slider:before,
+.slider:after {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  content: "";
+  z-index: 2;
 }
