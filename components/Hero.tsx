@@ -31,7 +31,7 @@ const NavBar = () => {
 
     return (
         <main>
-            <div className="flex flex-col items-center justify-center m-auto text-center mt-32 sml:px-3 gap-y-16 mdl:gap-y-28 mdl:mt-32">
+            <div className="flex flex-col items-center justify-center m-auto text-center mt-20 sml:px-3 gap-y-16 mdl:gap-y-28 mdl:mt-28">
 
                 {/* NAME */}
                 <motion.div
