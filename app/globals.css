@@ -58,3 +58,20 @@ html {
   content: "";
   z-index: 2;
 }
+
+.logo-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logo-wrapper:hover .logo-color {
+  opacity: 1;
+}
