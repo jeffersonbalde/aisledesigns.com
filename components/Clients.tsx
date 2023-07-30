@@ -10,8 +10,12 @@ import { motion } from 'framer-motion';
 
 const Clients = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center mt-12 py-4" id='clients'>
-      <h1 className='text-neutral-2 font-light text-[21px] sml:text-3xl '>
+    <motion.div className="flex flex-col justify-center items-center text-center py-16" id='clients'
+      initial={{ y: -10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{duration: 0.9, delay: 0.9}}
+    >
+      <h1 className='text-neutral-2 font-light text-2xl sml:text-3xl '>
         Some of
         <span className='text-neutral-1 font-semibold'> the clients I have <span className='block'>designed for</span></span>
       </h1>
@@ -99,7 +103,7 @@ const Clients = () => {
           />  
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

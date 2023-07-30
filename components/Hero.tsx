@@ -41,12 +41,12 @@ const NavBar = () => {
                 >
                     <h1 className='text-neutral-2 font-light text-3xl sml:text-4xl mdl:text-5xl'>I&apos;m <span className='uppercase text-primary font-bold'>Ysl Ron</span></h1>
                     <motion.h2 
-                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-[21px] smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-[40px]'
+                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-2xl smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-[40px]'
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{duration: 0.6, delay: 0.6}}
                     >Freelance Designer Specializing in
-                        <span className="block md:inline text-neutral-1 font-semibold"> UI/UX and 
+                        <span className=" md:inline text-neutral-1 font-semibold"> UI/UX and 
                         <span className='text-neutral-1 font-semibold lgl:block'> Graphic Design</span></span>
                     </motion.h2>
                 </motion.div>

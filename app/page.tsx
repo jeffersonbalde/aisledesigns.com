@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <NavBar />
       <ClientsComponent />
-      {/* <Works /> */}
+      <Works />
     </>
   )
 }

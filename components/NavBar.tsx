@@ -41,7 +41,7 @@ const NavBar = () => {
                 <Image 
                     src={logo}
                     alt='AisleDesigns'
-                    className='w-40 sml:w-48'
+                    className='w-[155px] sml:w-48'
                 />
             </Link>
         </motion.div>
@@ -96,21 +96,21 @@ const NavBar = () => {
                 Download CV
             </Link>
         </motion.li>
-    </nav>
+        </nav>
     
-    <motion.div
-        initial={{ y: -10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{duration: 0.2, delay: 0.2}}
-        className={`${styles.button} mdl:hidden flex items-center justify-center`}
-        onClick={() => {setIsActive(!isActive)}}
-    >
-            <div className={`${styles.burger} ${isActive ? styles.burgerActive : ''}`}></div>
-    </motion.div>
+        <motion.div
+            initial={{ y: -10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{duration: 0.2, delay: 0.2}}
+            className={`${styles.button} hidden mdl:hidden flex items-center justify-center`}
+            onClick={() => {setIsActive(!isActive)}}
+        >
+                <div className={`${styles.burger} ${isActive ? styles.burgerActive : ''}`}></div>
+        </motion.div>
         <AnimatePresence mode='wait'>
             {isActive && <Nav />}
         </AnimatePresence>
-    </header>
+        </header>
     )
 }
 
