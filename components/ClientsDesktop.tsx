@@ -41,7 +41,7 @@ const ClientLogo: React.FC<ClientLogoProps> = ({ alt }) => {
 
   return (
     <div className="logo-wrapper">
-      <Image src={logoSrc} alt={alt} />
+      <Image src={logoSrc} alt={alt} className='w-[220px]'/>
       <div className="logo-color">
         <Image src={logoColorSrc} alt={alt} />
       </div>
@@ -51,12 +51,12 @@ const ClientLogo: React.FC<ClientLogoProps> = ({ alt }) => {
 
 const ClientsDesktop: React.FC = () => {
   return (
-    <div className='flex flex-col m-auto max-w-[1216px] gap-24 mb-32 px-4 pt-28 xl:px-0 mt-16' id='clients'>
-      <h3 className='text-neutral-2 font-light text-[40px]'>
+    <div className='flex flex-col m-auto max-w-[1116px] gap-24 mb-32 px-4 pt-28 xl:px-0 mt-16' id='clients'>
+      <h3 className='text-neutral-2 font-light text-4xl'>
         Some of <span className='text-neutral-1 font-semibold'>the clients I have designed for </span>
       </h3>
       <div className='flex flex-row gap-6 justify-between items-center'>
-        <ClientLogo alt='Woop' />
+        <ClientLogo alt='Woop'/>
         <ClientLogo alt='SkoolTek' />
         <ClientLogo alt='Ed Folio' />
         <ClientLogo alt='Hooves' />

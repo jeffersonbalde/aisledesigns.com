@@ -29,7 +29,7 @@ const NavBar = () => {
     }
 
     return (
-        <header className='max-w-[1016px] flex flex-row justify-between items-center p-4 mdl:p-5 xl:px-0 m-auto sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30'>
+        <header className='max-w-[1116px] flex flex-row justify-between items-center p-4 mdl:p-5 xl:px-0 m-auto sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30'>
         <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
