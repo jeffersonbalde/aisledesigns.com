@@ -90,6 +90,10 @@ import woop_page_2 from '../public/assets/woop_page-2.svg';
 import woop_page_3 from '../public/assets/woop_page-3.svg';
 import arrow_right from '../public/icon/arrow_right.svg';
 
+import WOOP from '../public/assets/WOOP.jpg';
+import EDFOLIO from '../public/assets/EDFOLIO.jpg';
+import SKOOLTEK from '../public/assets/SKOOLTEK.jpg';
+
 const Works = () => {
   const child1Animations = useAnimation();
   const child2Animations = useAnimation();
@@ -115,33 +119,33 @@ const Works = () => {
 
   return (
     <div
-      className="mdl:mt-48 flex flex-col max-w-[1220px] m-auto px-4 py-5"
+      className="mdl:mt-48 flex flex-col max-w-[1116px] m-auto px-4 py-5 xl:px-0"
       id="works"
     >
-      <h3 className="text-neutral-2 font-light text-2xl sml:text-3xl mdl:text-[40px]">
+      <h3 className="text-neutral-2 font-light text-2xl sml:text-3xl mdl:text-4xl">
         Selected
         <span className="text-neutral-1 font-semibold"> Works</span>
       </h3>
 
       {/* WOOPSCHOLARSHIP */}
-      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8 ">
-        <motion.div
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8">
+        {/* <motion.div
           className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
           whileHover={{ rotate: -6 }}
           transition={{ duration: 0.5 }}
           onMouseEnter={handleContainerHover}
           onMouseLeave={handleContainerHoverEnd}
-        >
+        > */}
           {/* Your main project photo that serves as a container */}
-          <Image 
+          {/* <Image 
             src={woop} 
             alt="Woop" 
             objectFit="cover"
             className=' w-[900px]'
-          />
+          /> */}
 
           {/* The three screenshot images */}
-          <motion.div
+          {/* <motion.div
             className="absolute top-[107px] left-3"
             animate={child1Animations}
           >
@@ -172,7 +176,12 @@ const Works = () => {
               layout="responsive"
             />
           </motion.div> 
-        </motion.div>
+        </motion.div> */}
+        <Image 
+          src={WOOP}
+          alt='WOOPSCHOLARHIP'
+          className='w-[600px] h-[400px]'
+        />
         <div className="flex flex-col justify-end items-start gap-5">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">WOOPSCHOLARSHIP</p>
