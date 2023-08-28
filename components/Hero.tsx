@@ -31,7 +31,7 @@ const NavBar = () => {
 
     return (
         <main>
-            <div className="flex flex-col items-center justify-center m-auto text-center mt-20 sml:px-3 gap-y-16 mdl:gap-y-28 mdl:mt-24">
+            <div className="flex flex-col items-center justify-center m-auto text-center mt-20 sml:px-3 gap-y-16 mdl:gap-y-20 mdl:mt-24">
 
                 {/* NAME */}
                 <motion.div
@@ -39,9 +39,9 @@ const NavBar = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{duration: 0.5, delay: 0.5}}
                 >
-                    <h1 className='text-neutral-2 font-light text-3xl sml:text-4xl mdl:text-5xl'>I&apos;m <span className='uppercase text-primary font-bold'>Ysl Ron</span></h1>
+                    <h1 className='text-neutral-2 font-light text-3xl sml:text-4xl mdl:text-[44px]'>I&apos;m <span className='uppercase text-primary font-bold'>Ysl Ron</span></h1>
                     <motion.h2 
-                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-2xl smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-[40px]'
+                        className='h2 text-neutral-2 font-regular xss:text-[19px] smm:text-2xl smm:leading-9 mt-5 sml:text-3xl sml:leading-[1.2em] md:px-5 mdl:px-7 mdl:text-4xl mdl:leading-normal'
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{duration: 0.6, delay: 0.6}}
@@ -83,12 +83,12 @@ const NavBar = () => {
                                 <Image
                                     src={figma}
                                     alt='Figma'
-                                    className='w-[45px] sml:w-14 xl:w-16'
+                                    className='w-[45px] sml:w-14'
                                 />
                                 <Image
-                                    src={fav}
+                                    src={fav}   
                                     alt='fav'
-                                    className='absolute left-[30px] bottom-[30px] w-7 sml:left-[35px] sml:bottom-[37px] xl:w-10 xl:bottom-[47px]'
+                                    className='absolute left-[30px] bottom-[30px] w-7 sml:left-[35px] sml:bottom-[37px] xl:w-10 xl:bottom-[40px] xl:left-[30px]'
                                 />
                             </div>
                         </motion.div>
@@ -119,7 +119,7 @@ const NavBar = () => {
                             <Image
                                 src={adobe_xd}
                                 alt='Adobe XD'
-                                className='w-[45px] sml:w-14 xl:w-16'
+                                className='w-[45px] sml:w-14'
                             />
                         </motion.div>
 
@@ -148,7 +148,7 @@ const NavBar = () => {
                             <Image
                                 src={photoshop}
                                 alt='Photoshop'
-                                className='w-[45px] sml:w-14 xl:w-16'
+                                className='w-[45px] sml:w-14'
                             />
                         </motion.div>
                         <motion.div
@@ -175,7 +175,7 @@ const NavBar = () => {
                             <Image
                                 src={adobe_illustrator}
                                 alt='Adobe Illustrator'
-                                className='w-[45px] sml:w-14 xl:w-16'
+                                className='w-[45px] sml:w-14'
                             />
                         </motion.div>
                     </div>
