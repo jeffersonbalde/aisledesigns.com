@@ -29,7 +29,7 @@ const NavBar = () => {
     }
 
     return (
-        <header className='max-w-[1216px] flex flex-row justify-between items-center p-4 mdl:p-5 xl:px-0 m-auto sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30'>
+        <header className='max-w-[1016px] flex flex-row justify-between items-center p-4 mdl:p-5 xl:px-0 m-auto sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30'>
         <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
@@ -41,7 +41,7 @@ const NavBar = () => {
                 <Image 
                     src={logo}
                     alt='AisleDesigns'
-                    className='w-[155px] sml:w-48'
+                    className='w-[155px] sml:w-40'
                 />
             </Link>
         </motion.div>
@@ -56,7 +56,7 @@ const NavBar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{duration: 0.1}}
             >
-                Home
+                Home    
             </motion.li>
         </Link>
         <Link
