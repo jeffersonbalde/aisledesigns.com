@@ -15,8 +15,8 @@ import bethany_brand from '../public/logo/bethany_brand.svg';
 
 const Brands = () => {
   return (
-    <div className='flex flex-col max-w-[1120px] m-auto px-4 py-16'> 
-        <h1 className='text-neutral-2 font-normal text-base'>I have had the opportunity to work on various <span className='text-neutral-1 font-semibold'>Branding, Logo design, Web design</span> projects for both local 
+    <div className='flex flex-col max-w-[1050px] m-auto px-4 mdl:py-32'> 
+        <h1 className='text-neutral-2 font-light text-base mdl:text-xl mdl:leading-relaxed'>I have had the opportunity to work on various <span className='text-neutral-1 font-semibold'>Branding, Logo design, Web design</span> projects for both local 
             and international businesses. I have also gained experience in creating visually appealing social media 
             posts and other graphics that effectively communicate brand messages. Through my work as a freelancer 
             and through local marketing, I have honed my abilities to deliver high-quality designs that meet my 
