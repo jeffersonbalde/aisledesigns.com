@@ -93,6 +93,7 @@ import arrow_right from '../public/icon/arrow_right.svg';
 import WOOP from '../public/assets/WOOP.jpg';
 import EDFOLIO from '../public/assets/EDFOLIO.jpg';
 import SKOOLTEK from '../public/assets/SKOOLTEK.jpg';
+import HOOVES from '../public/assets/HOOVES.jpg';
 
 const Works = () => {
   const child1Animations = useAnimation();
@@ -284,24 +285,24 @@ const Works = () => {
       </div>
 
       {/* EDFOLIO */}
-      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8 ">
-        <motion.div
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-10 justify-between">
+        {/* <motion.div
           className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
           whileHover={{ rotate: -6 }}
           transition={{ duration: 0.5 }}
           onMouseEnter={handleContainerHover}
           onMouseLeave={handleContainerHoverEnd}
-        >
+        > */}
           {/* Your main project photo that serves as a container */}
-          <Image 
+          {/* <Image 
             src={woop} 
             alt="Woop" 
             objectFit="cover"
             className=' w-[900px]'
-          />
+          /> */}
 
           {/* The three screenshot images */}
-          <motion.div
+          {/* <motion.div
             className="absolute top-[107px] left-3"
             animate={child1Animations}
           >
@@ -332,17 +333,22 @@ const Works = () => {
               layout="responsive"
             />
           </motion.div> 
-        </motion.div>
-        <div className="flex flex-col justify-end items-start gap-5">
+        </motion.div> */}
+        <Image 
+          src={EDFOLIO}
+          alt='EDFOLIO'
+          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+        />
+        <div className="flex flex-col justify-end items-start gap-10">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">EDFOLIO</p>
-            <h3 className="text-lg mdl:text-[32px] text-neutral-2 font-normal mt-4">
-              <span className="text-neutral-1 font-semibold">Education Within Your Reach.</span> Ed Folio was born with the heart to help small to medium schools fare better in the remote learning education. They needed a  new make over on their website, that’s where I come in as a UI/UX Designer
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-light mt-4 mdl:leading-relaxed">
+            <span className="text-neutral-1 font-semibold">Education Within Your Reach.</span> Ed Folio was born with the heart to help small to medium schools fare better in the remote learning education. They needed a  new make over on their website, that’s where I come in as a UI/UX Designer
             </h3>
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
-          </div>
-          <div className="text-sm uppercase flex flex-row items-center justify-center gap-5">
-            <Link href="https://www.edfolio.co/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+          </div>  
+          <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
+            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
@@ -356,24 +362,24 @@ const Works = () => {
       </div>
 
       {/* HOOVES */}
-      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8 ">
-        <motion.div
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row-reverse gap-x-10 justify-between">
+        {/* <motion.div
           className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
           whileHover={{ rotate: -6 }}
           transition={{ duration: 0.5 }}
           onMouseEnter={handleContainerHover}
           onMouseLeave={handleContainerHoverEnd}
-        >
+        > */}
           {/* Your main project photo that serves as a container */}
-          <Image 
+          {/* <Image 
             src={woop} 
             alt="Woop" 
             objectFit="cover"
             className=' w-[900px]'
-          />
+          /> */}
 
           {/* The three screenshot images */}
-          <motion.div
+          {/* <motion.div
             className="absolute top-[107px] left-3"
             animate={child1Animations}
           >
@@ -404,17 +410,22 @@ const Works = () => {
               layout="responsive"
             />
           </motion.div> 
-        </motion.div>
-        <div className="flex flex-col justify-end items-start gap-5">
+        </motion.div> */}
+        <Image 
+          src={HOOVES}
+          alt='HOOVES'
+          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+        />
+        <div className="flex flex-col justify-end items-start gap-10 ">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">HOOVES</p>
-            <h3 className="text-lg mdl:text-[32px] text-neutral-2 font-normal mt-4">
-              <span className="text-neutral-1 font-semibold">Hooves is a full-service hybrid digital web development company that specializes in UI/UX design and development.</span> Their Website design services are focused on creating a user-friendly experience that is both visually appealing and functional.
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-light mt-4 mdl:leading-relaxed">
+            <span className="text-neutral-1 font-semibold">Hooves is a full-service hybrid digital web development company that specializes in UI/UX design and development.</span> Their Website design services are focused on creating a user-friendly experience that is both visually appealing and functional.
             </h3>
-            <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">BRANDING, WEBSITE DESIGN</p>
-          </div>
+            <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
+          </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="#" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
