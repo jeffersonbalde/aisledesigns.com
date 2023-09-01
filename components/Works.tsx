@@ -128,7 +128,7 @@ const Works = () => {
       </h3>
 
       {/* WOOPSCHOLARSHIP */}
-      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8">
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-10 justify-between">
         {/* <motion.div
           className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
           whileHover={{ rotate: -6 }}
@@ -180,18 +180,18 @@ const Works = () => {
         <Image 
           src={WOOP}
           alt='WOOPSCHOLARHIP'
-          className='w-[600px] h-[400px]'
+          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
         />
-        <div className="flex flex-col justify-end items-start gap-5">
+        <div className="flex flex-col justify-end items-start gap-10">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">WOOPSCHOLARSHIP</p>
-            <h3 className="text-lg mdl:text-[32px] text-neutral-2 font-normal mt-4">
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-light mt-4 mdl:leading-relaxed">
               <span className="text-neutral-1 font-semibold">WOOP stands for Windows of Opportunity.</span> A
               scholarship matchmaker platform that makes finding and applying for a scholarship easier and more accessible
               for students.
             </h3>
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">BRANDING, WEBSITE, APPLICATION, UI UX DESIGN</p>
-          </div>
+          </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
             <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
@@ -207,24 +207,24 @@ const Works = () => {
       </div>
 
       {/* SKOOLTEK */}
-      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8 ">
-        <motion.div
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row-reverse gap-x-10 justify-between">
+        {/* <motion.div
           className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
           whileHover={{ rotate: -6 }}
           transition={{ duration: 0.5 }}
           onMouseEnter={handleContainerHover}
           onMouseLeave={handleContainerHoverEnd}
-        >
+        > */}
           {/* Your main project photo that serves as a container */}
-          <Image 
+          {/* <Image 
             src={woop} 
             alt="Woop" 
             objectFit="cover"
             className=' w-[900px]'
-          />
+          /> */}
 
           {/* The three screenshot images */}
-          <motion.div
+          {/* <motion.div
             className="absolute top-[107px] left-3"
             animate={child1Animations}
           >
@@ -255,17 +255,22 @@ const Works = () => {
               layout="responsive"
             />
           </motion.div> 
-        </motion.div>
-        <div className="flex flex-col justify-end items-start gap-5">
+        </motion.div> */}
+        <Image 
+          src={SKOOLTEK}
+          alt='SKOOLTEK'
+          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+        />
+        <div className="flex flex-col justify-end items-start gap-10 ">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">SKOOLTEK</p>
-            <h3 className="text-lg mdl:text-[32px] text-neutral-2 font-normal mt-4">
-              <span className="text-neutral-1 font-semibold">A complete hybrid ready school management solutions.</span> SkoolTek by EdFolio was born with the heart to help small to medium schools fare better in the hybrid learning education. 
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-light mt-4 mdl:leading-relaxed">
+              <span className="text-neutral-1 font-semibold">A complete hybrid ready school management solutions.</span> SkoolTek by EdFolio was born with the heart to help small to medium schools fare better in the hybrid learning education.
             </h3>
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
-          </div>
+          </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="#" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
@@ -273,78 +278,7 @@ const Works = () => {
                 className='w-5'
               />
             </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* HOOVES */}
-      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8 ">
-        <motion.div
-          className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
-          whileHover={{ rotate: -6 }}
-          transition={{ duration: 0.5 }}
-          onMouseEnter={handleContainerHover}
-          onMouseLeave={handleContainerHoverEnd}
-        >
-          {/* Your main project photo that serves as a container */}
-          <Image 
-            src={woop} 
-            alt="Woop" 
-            objectFit="cover"
-            className=' w-[900px]'
-          />
-
-          {/* The three screenshot images */}
-          <motion.div
-            className="absolute top-[107px] left-3"
-            animate={child1Animations}
-          >
-            <Image
-              src={woop_page_1}
-              alt="Screenshot 1"    
-              layout="responsive"   
-            />
-          </motion.div>
-          <motion.div
-            className="absolute bottom-0 left-[285px] top-[-87px] w-[36rem]"
-            animate={child2Animations}
-            transition={{ duration: 0.5 }}
-          >
-            <Image
-              src={woop_page_2}
-              alt="Screenshot 2"
-              layout="responsive"
-            />
-          </motion.div>
-          <motion.div
-            className="absolute bottom-[400px] left-[158px]"
-            animate={child3Animations}
-          >
-            <Image
-              src={woop_page_3}
-              alt="Screenshot 3"
-              layout="responsive"
-            />
-          </motion.div> 
-        </motion.div>
-        <div className="flex flex-col justify-end items-start gap-5">
-          <div className="flex flex-col justify-center">
-            <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">HOOVES</p>
-            <h3 className="text-lg mdl:text-[32px] text-neutral-2 font-normal mt-4">
-              <span className="text-neutral-1 font-semibold">Hooves is a full-service hybrid digital web development company that specializes in UI/UX design and development.</span> Their Website design services are focused on creating a user-friendly experience that is both visually appealing and functional.
-            </h3>
-            <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">BRANDING, WEBSITE DESIGN</p>
-          </div>
-          <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="#" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
-              <p>Visit Website</p>
-              <Image
-                src={arrow_right}
-                alt='arrow right'
-                className='w-5'
-              />
-            </Link>
-            <p className='text-[#EB5757] font-regular'>PROJECT STOPPED</p>
+            {/* <p className='text-primary font-semibold'>In Development</p> */}
           </div>
         </div>
       </div>
@@ -417,6 +351,78 @@ const Works = () => {
               />
             </Link>
             <p className='text-primary font-semibold'>REBRANDING IN DEVELOPMENT</p>
+          </div>
+        </div>
+      </div>
+
+      {/* HOOVES */}
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-8 ">
+        <motion.div
+          className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
+          whileHover={{ rotate: -6 }}
+          transition={{ duration: 0.5 }}
+          onMouseEnter={handleContainerHover}
+          onMouseLeave={handleContainerHoverEnd}
+        >
+          {/* Your main project photo that serves as a container */}
+          <Image 
+            src={woop} 
+            alt="Woop" 
+            objectFit="cover"
+            className=' w-[900px]'
+          />
+
+          {/* The three screenshot images */}
+          <motion.div
+            className="absolute top-[107px] left-3"
+            animate={child1Animations}
+          >
+            <Image
+              src={woop_page_1}
+              alt="Screenshot 1"    
+              layout="responsive"   
+            />
+          </motion.div>
+          <motion.div
+            className="absolute bottom-0 left-[285px] top-[-87px] w-[36rem]"
+            animate={child2Animations}
+            transition={{ duration: 0.5 }}
+          >
+            <Image
+              src={woop_page_2}
+              alt="Screenshot 2"
+              layout="responsive"
+            />
+          </motion.div>
+          <motion.div
+            className="absolute bottom-[400px] left-[158px]"
+            animate={child3Animations}
+          >
+            <Image
+              src={woop_page_3}
+              alt="Screenshot 3"
+              layout="responsive"
+            />
+          </motion.div> 
+        </motion.div>
+        <div className="flex flex-col justify-end items-start gap-5">
+          <div className="flex flex-col justify-center">
+            <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">HOOVES</p>
+            <h3 className="text-lg mdl:text-[32px] text-neutral-2 font-normal mt-4">
+              <span className="text-neutral-1 font-semibold">Hooves is a full-service hybrid digital web development company that specializes in UI/UX design and development.</span> Their Website design services are focused on creating a user-friendly experience that is both visually appealing and functional.
+            </h3>
+            <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">BRANDING, WEBSITE DESIGN</p>
+          </div>
+          <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
+            <Link href="#" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+              <p>Visit Website</p>
+              <Image
+                src={arrow_right}
+                alt='arrow right'
+                className='w-5'
+              />
+            </Link>
+            <p className='text-[#EB5757] font-regular'>PROJECT STOPPED</p>
           </div>
         </div>
       </div>
