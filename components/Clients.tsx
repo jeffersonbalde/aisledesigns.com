@@ -17,7 +17,7 @@ const Clients = () => {
     >
       <h1 className='text-neutral-2 font-light text-2xl sml:text-3xl '>
         Some of
-        <span className='text-neutral-1 font-semibold'> the clients I have <span className='block'>designed for</span></span>
+        <span className='text-neutral-1 font-semibold'> the clients I have <span className='block md:inline'>designed for</span></span>
       </h1>
       <div className='w-96 slider'>
         <div className='slide-track'>

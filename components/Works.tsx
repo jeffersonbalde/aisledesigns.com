@@ -181,12 +181,12 @@ const Works = () => {
         <Image 
           src={WOOP}
           alt='WOOPSCHOLARHIP'
-          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+          className='w-[800px] h-[700x] xl:w-[690px] xl:h-[450px] hidden mdl:block rounded-lg'
         />
         <div className="flex flex-col justify-end items-start gap-10">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">WOOPSCHOLARSHIP</p>
-            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-relaxed">
+            <h3 className="text-lg xl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-snug">
               <span className="text-neutral-1 font-semibold">WOOP stands for Windows of Opportunity.</span> A
               scholarship matchmaker platform that makes finding and applying for a scholarship easier and more accessible
               for students.
@@ -414,7 +414,7 @@ const Works = () => {
         <Image 
           src={HOOVES}
           alt='HOOVES'
-          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+          className='w-12 h-12 xl:w-[690px] xl:h-[450px] hidden mdl:block rounded-lg'
         />
         <div className="flex flex-col justify-end items-start gap-10 ">
           <div className="flex flex-col justify-center">
