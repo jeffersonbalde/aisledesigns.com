@@ -181,12 +181,12 @@ const Works = () => {
         <Image 
           src={WOOP}
           alt='WOOPSCHOLARHIP'
-          className='w-[800px] h-[700x] xl:w-[690px] xl:h-[450px] hidden mdl:block rounded-lg'
+          className='w-[400px] h-[400px] xl:w-[690px] xl:h-[450px] hidden xl:block rounded-lg'
         />
         <div className="flex flex-col justify-end items-start gap-10">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">WOOPSCHOLARSHIP</p>
-            <h3 className="text-lg xl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-snug">
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-normal">
               <span className="text-neutral-1 font-semibold">WOOP stands for Windows of Opportunity.</span> A
               scholarship matchmaker platform that makes finding and applying for a scholarship easier and more accessible
               for students.
@@ -260,12 +260,12 @@ const Works = () => {
         <Image 
           src={SKOOLTEK}
           alt='SKOOLTEK'
-          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+          className='w-[690px] h-[450px] hidden xl:block rounded-lg'
         />
         <div className="flex flex-col justify-end items-start gap-10 ">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">SKOOLTEK</p>
-            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-relaxed">
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-normal">
               <span className="text-neutral-1 font-semibold">A complete hybrid ready school management solutions.</span> SkoolTek by EdFolio was born with the heart to help small to medium schools fare better in the hybrid learning education.
             </h3>
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
@@ -337,12 +337,12 @@ const Works = () => {
         <Image 
           src={EDFOLIO}
           alt='EDFOLIO'
-          className='w-[690px] h-[450px] hidden mdl:block rounded-lg'
+          className='w-[690px] h-[450px] hidden xl:block rounded-lg'
         />
         <div className="flex flex-col justify-end items-start gap-10">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">EDFOLIO</p>
-            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-relaxed">
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-snug">
             <span className="text-neutral-1 font-semibold">Education Within Your Reach.</span> Ed Folio was born with the heart to help small to medium schools fare better in the remote learning education. They needed a  new make over on their website, that’s where I come in as a UI/UX Designer
             </h3>
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
@@ -414,12 +414,12 @@ const Works = () => {
         <Image 
           src={HOOVES}
           alt='HOOVES'
-          className='w-12 h-12 xl:w-[690px] xl:h-[450px] hidden mdl:block rounded-lg'
+          className='w-12 h-12 xl:w-[690px] xl:h-[450px] hidden xl:block rounded-lg'
         />
         <div className="flex flex-col justify-end items-start gap-10 ">
           <div className="flex flex-col justify-center">
             <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">HOOVES</p>
-            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-relaxed">
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-snug">
             <span className="text-neutral-1 font-semibold">Hooves is a full-service hybrid digital web development company that specializes in UI/UX design and development.</span> Their Website design services are focused on creating a user-friendly experience that is both visually appealing and functional.
             </h3>
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>

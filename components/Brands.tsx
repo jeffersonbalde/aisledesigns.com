@@ -48,42 +48,42 @@ const Brands = () => {
                 <Image 
                     src={optical_brand}
                     alt='RICO OPTICAL'
-                    className='w-80 mdl:w-96'
+                    className='w-80 mdl:w-[399px]'
                 />
                 <Image 
                     src={JMM_brand}
                     alt='JMM MARKETING BAKERY PRODUCTS'
-                    className='w-44 mdl:w-56'
+                    className='w-44 mdl:w-72'
                 />
                 <Image 
                     src={cajeta_brand}
                     alt='CAJETA LAW OFFICE'
-                    className='w-36 mdl:w-56'
+                    className='w-36 mdl:w-64'
                 />
                 <Image 
                     src={special_brand}
                     alt='SPECIAL BUTCHERONZ'
-                    className='w-36 mdl:w-56'
+                    className='w-36 mdl:w-44'
                 />
                 <Image 
                     src={sun_brand}
                     alt='SUN AGRIVET & MERCHANDISE'
-                    className='w-36 mdl:w-56'
+                    className='w-36 mdl:w-40'
                 />
                 <Image 
                     src={convenience_brand}
                     alt='CONVENIENCE STORE RESTOBAR'
-                    className='w-36 mdl:w-56'
+                    className='w-36 mdl:w-40'
                 />
                 <Image 
                     src={budbud_brand}
                     alt='BUDBUD IN 21 STREET'
-                    className='w-36 mdl:w-56'
+                    className='w-36 mdl:w-40'
                 />
                 <Image 
                     src={bethany_brand}
                     alt='BETHANY BAPTIST ACADEMY ILIGAN'
-                    className='w-36 mdl:w-56'
+                    className='w-36 mdl:w-40'
                 />
             </div>
         </div>
