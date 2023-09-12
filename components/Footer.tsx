@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col max-w-[1120px] m-auto px-4 pt-16 pb-9 justify-center items-center text-center'>
+    <div className='flex flex-col max-w-[1120px] m-auto px-4 pt-16 pb-9 justify-center items-center text-center' id="contact">
         <div className="">
             <h1 className='text-neutral-2 font-light text-4xl'>Get <span className='font-semibold text-neutral-1'>in Touch.</span></h1>
             <p className='font-light text-neutral-1 text-xs mt-3'>So that we can talk more about...</p>

@@ -94,6 +94,7 @@ import WOOP from '../public/assets/WOOP.jpg';
 import EDFOLIO from '../public/assets/EDFOLIO.jpg';
 import SKOOLTEK from '../public/assets/SKOOLTEK.jpg';
 import HOOVES from '../public/assets/HOOVES.jpg';
+import STUDIO_PINYA from '../public/assets/STUDIO_PINYA.jpg';
 
 const Works = () => {
   const child1Animations = useAnimation();
@@ -127,6 +128,83 @@ const Works = () => {
         Selected
         <span className="text-neutral-1 font-semibold"> Works</span>
       </h3>
+
+      {/* STUDIO PINYA */}
+      <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row-reverse gap-x-10 justify-between">
+        {/* <motion.div
+          className="hidden mdl:block relative overflow-hidden w-[330px] mdl:w-[2740px] rounded-3xl mdl:h-[500px]"
+          whileHover={{ rotate: -6 }}
+          transition={{ duration: 0.5 }}
+          onMouseEnter={handleContainerHover}
+          onMouseLeave={handleContainerHoverEnd}
+        > */}
+          {/* Your main project photo that serves as a container */}
+          {/* <Image 
+            src={woop} 
+            alt="Woop" 
+            objectFit="cover"
+            className=' w-[900px]'
+          /> */}
+
+          {/* The three screenshot images */}
+          {/* <motion.div
+            className="absolute top-[107px] left-3"
+            animate={child1Animations}
+          >
+            <Image
+              src={woop_page_1}
+              alt="Screenshot 1"    
+              layout="responsive"   
+            />
+          </motion.div>
+          <motion.div
+            className="absolute bottom-0 left-[285px] top-[-87px] w-[36rem]"
+            animate={child2Animations}
+            transition={{ duration: 0.5 }}
+          >
+            <Image
+              src={woop_page_2}
+              alt="Screenshot 2"
+              layout="responsive"
+            />
+          </motion.div>
+          <motion.div
+            className="absolute bottom-[400px] left-[158px]"
+            animate={child3Animations}
+          >
+            <Image
+              src={woop_page_3}
+              alt="Screenshot 3"
+              layout="responsive"
+            />
+          </motion.div> 
+        </motion.div> */}
+        <Image 
+          src={STUDIO_PINYA}
+          alt='STUDIO PINYA'
+          className='w-[400px] h-[400px] xl:w-[690px] xl:h-[450px] hidden xl:block rounded-lg'
+        />
+        <div className="flex flex-col justify-end items-start gap-10">
+          <div className="flex flex-col justify-center">
+            <p className="uppercase text-neutral-1 text-semibold text-sm mt-5 mdl:mt-0">STUDIO PINYA</p>
+            <h3 className="text-lg mdl:text-[28px] text-neutral-2 font-normal mt-4 mdl:leading-normal">
+              <span className="text-neutral-1 font-semibold">Philippines-based studio </span> specializing in creating captivating webtoons through global partnerships and collaborations, Website Design and Development. Landing Page Design
+            </h3>
+            <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">BRANDING, WEBSITE DESIGN, DEVELOPMENT</p>
+          </div>  
+          <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
+            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+              <p>Visit Website</p>
+              <Image
+                src={arrow_right}
+                alt='arrow right'
+                className='w-5'
+              />
+            </Link>
+            {/* <p className='text-primary font-semibold'>In Development</p> */}
+          </div>
+        </div>
+      </div>
 
       {/* WOOPSCHOLARSHIP */}
       <div className="mt-14 mdl:mt-20 flex flex-col mdl:flex-row gap-x-10 justify-between">

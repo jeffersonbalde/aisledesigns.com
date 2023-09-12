@@ -29,7 +29,7 @@ const NavBar = () => {
     }
 
     return (
-        <header className='max-w-[1116px] flex flex-row justify-between items-center p-4 mdl:p-5 xl:px-0 m-auto sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30'>
+        <header className='max-w-[1216px] flex flex-row justify-between items-center p-4 mdl:p-5 xl:px-0 m-auto sticky top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-30'>
         <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
@@ -90,10 +90,11 @@ const NavBar = () => {
                 transition={{duration: 0.4, delay: 0.4}}
             >
             <Link
-                href="#downloadcv"
+                href="#contact"
                 className='text-slate-100 border border-primary rounded-full bg-primary py-2 px-6 text-base'
+                onClick={handleScroll}
             >
-                Download CV
+                Contact
             </Link>
         </motion.li>
         </nav>
