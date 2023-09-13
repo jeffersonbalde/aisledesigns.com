@@ -6,6 +6,8 @@ import Hero from "@/components/Hero";
 import Works from "@/components/Works";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
+import AboutDesktop from "@/components/AboutDesktop";
+import AboutComponent from "@/components/AboutComponent";
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
       <ClientsComponent />
       <Works />
       <Brands />
-      <About />
+      {/* <About /> */}
+      {/* <AboutDesktop /> */}
+      <AboutComponent />
       <Footer />
      </>
   )
