@@ -193,7 +193,7 @@ const Works = () => {
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">BRANDING, WEBSITE DESIGN, DEVELOPMENT</p>
           </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+            <Link href="https://www.studiopinya.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
@@ -349,7 +349,7 @@ const Works = () => {
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
           </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+            <Link href="https://skooltek.co/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
@@ -426,7 +426,7 @@ const Works = () => {
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
           </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+            <Link href="https://www.edfolio.co/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
@@ -503,7 +503,7 @@ const Works = () => {
             <p className="text-sm mdl:text-lg text-neutral-1 font-light uppercase mt-6">REBRANDING, WEBSITE REDESIGN</p>
           </div>  
           <div className="text-sm uppercase flex flex-row items-center justify-center gap-7">
-            <Link href="https://www.woopscholarship.com/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
+            <Link href="/" className="text-[#FFF] font-normal flex flex-row items-center justify-center gap-2 border border-neutral-2 py-2 px-4 rounded-full" target="_blank" rel="noreferrer">
               <p>Visit Website</p>
               <Image
                 src={arrow_right}
