@@ -6,7 +6,7 @@ const About = () => {
         <div className="">
             <h2 className='uppercase text-neutral-1 font-semibold text-lg'>A bit about me</h2>
             <h1 className='text-neutral-2 font-light mt-5 text-xl leading-relaxed'>I am a Designer who is passionate about creating 
-                <span className='text-neutral-1 font-semibold'> Beautiful and Joyful Digital Experiences.</span>
+                <span className='text-neutral-1 font-semibold'> beautiful and joyful digital experiences. Besides design I Love Arts, Games and Reading Mangas. </span>
             </h1> 
         </div>
     </div>
