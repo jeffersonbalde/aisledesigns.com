@@ -75,6 +75,7 @@ const NavBar = () => {
         <Link
             href="#about"
             className='text-neutral-1 hover:text-neutral-2 nav-link'
+            onClick={handleScroll}
         >
             <motion.li
                 initial={{ y: -10, opacity: 0 }}

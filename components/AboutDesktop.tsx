@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const AboutDesktop = () => {
   return (
-    <div className='max-w-[1050px] flex justify-center items-center m-auto'>
+    <div className='max-w-[1050px] flex justify-center items-center m-auto' id="about">
         <div className="flex justify-center items-center gap-10">
             <div className="w-96">
                 <h1 className='uppercase text-neutral-1 font-semibold text-lg'>A bit about me</h1>
